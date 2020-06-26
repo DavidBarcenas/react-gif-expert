@@ -4,3 +4,12 @@ body {
   background-color: #282c34;
   color: #fff;
 }
+
+input {
+  background: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.3em;
+  width: 100%;
+}
