@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
+import { GiftGrid } from './components/GiftGrid';
 
 const GiftExpert = () => {
-  const [categories, setCategories] = useState([
-    'Spiderman',
-    'Iron-man',
-    'Captain America',
-  ]);
+  const [categories, setCategories] = useState(['Spiderman']);
 
   // const handleAdd = () => {
   //   setCategories([...categories, 'Batman']);
@@ -20,11 +17,9 @@ const GiftExpert = () => {
 
       <hr />
 
-      <ul>
-        {categories.map((c) => (
-          <li key={c}>{c}</li>
-        ))}
-      </ul>
+      {categories.map((c) => (
+        <GiftGrid key={c} category={c} />
+      ))}
     </div>
   );
 };

@@ -13,3 +13,15 @@ input {
   font-size: 1.3em;
   width: 100%;
 }
+
+.Gifs__list {
+  list-style: none;
+  column-count: 4;
+  column-gap: 0.5em;
+  margin: 0;
+  padding: 0;
+}
+
+.Gifs__list li img {
+  width: 100%;
+}
