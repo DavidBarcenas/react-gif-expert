@@ -16,7 +16,7 @@ input {
 
 .Gifs__list {
   list-style: none;
-  column-count: 4;
+  column-count: 5;
   column-gap: 0.5em;
   margin: 0;
   padding: 0;
@@ -24,4 +24,24 @@ input {
 
 .Gifs__list li img {
   width: 100%;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.category__subtitle {
+  color: cyan;
 }
