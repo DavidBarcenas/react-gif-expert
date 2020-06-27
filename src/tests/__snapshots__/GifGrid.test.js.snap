@@ -4,7 +4,9 @@ exports[`<GifGrid testing> should render correctly 1`] = `
 <div>
   <h3
     className="category__subtitle"
-  />
+  >
+    Batman
+  </h3>
   <p>
     Loading...
   </p>
