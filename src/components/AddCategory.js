@@ -8,7 +8,8 @@ export const AddCategory = ({ setCategories }) => {
   const handlesubmit = (e) => {
     e.preventDefault();
     if (value.trim().length > 2) {
-      setCategories((cats) => [...cats, value]);
+      // setCategories((cats) => [...cats, value]);
+      setCategories((cats) => [value]);
       setValue('');
     }
   };
