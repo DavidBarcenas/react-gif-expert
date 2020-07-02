@@ -15,3 +15,33 @@ exports[`<GifGrid testing> should render correctly 1`] = `
   />
 </div>
 `;
+
+exports[`<GifGrid testing> should show items when images are loaded with useFetch 1`] = `
+<div>
+  <h3
+    className="category__subtitle"
+  >
+    Batman
+  </h3>
+  <ul
+    className="Gifs__list fadeInUp"
+  >
+    <li
+      key="abc"
+    >
+      <img
+        alt="Prueba de imagen"
+        src="https://localhost/image.png"
+      />
+    </li>
+    <li
+      key="abc123"
+    >
+      <img
+        alt="Prueba de imagen"
+        src="https://localhost/image.png"
+      />
+    </li>
+  </ul>
+</div>
+`;
