@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GiftGrid } from './components/GiftGrid';
 
-const GiftExpert = () => {
-  const [categories, setCategories] = useState(['Spiderman']);
+const GiftExpert = ({ dafultCategory = [] }) => {
+  const [categories, setCategories] = useState(dafultCategory);
 
   // const handleAdd = () => {
   //   setCategories([...categories, 'Batman']);

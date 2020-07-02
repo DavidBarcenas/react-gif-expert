@@ -1,7 +1,7 @@
 import '@testing-library/jest-dom';
 import React from 'react';
 const { shallow } = require('enzyme');
-import { AddCategory } from '../components/AddCategory';
+import { AddCategory } from '../../components/AddCategory';
 
 describe('AddCategory testing', () => {
   const setCategories = jest.fn();

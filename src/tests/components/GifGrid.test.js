@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom';
-import { GiftGrid } from '../components/GiftGrid';
-import { useFetchGifs } from '../hooks/useFetchGifs';
+import { GiftGrid } from '../../components/GiftGrid';
+import { useFetchGifs } from '../../hooks/useFetchGifs';
 const { shallow } = require('enzyme');
 jest.mock('../hooks/useFetchGifs');
 
