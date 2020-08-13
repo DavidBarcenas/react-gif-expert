@@ -1,6 +1,6 @@
 # GiftExpert
 
-This is an application that uses the most popular API of the moment ([Giphy](https://giphy.com/explore/expert)) to search for gifs
+This is an application that uses the most popular API of the moment ([Giphy](https://giphy.com/explore/expert)) to search for gifs.
 
 ## Preview
 
@@ -27,4 +27,4 @@ npm run test
 ```
 
 ## License
-David Bárcenas. Released under the [MIT License]
+ Released under the MIT License
