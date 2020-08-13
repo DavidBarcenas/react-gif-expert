@@ -1,8 +1,6 @@
-# GiftExpert App
+# GiftExpert
 
-<img alt="Practices Flutter" src="https://img.shields.io/badge/Awesome-React-blue.svg?longCache=true&style=flat-square" />
-
-This is an application that uses the most popular API of the moment ([Giphy]('https://giphy.com/explore/expert')) to search for gifs
+This is an application that uses the most popular API of the moment ([Giphy](https://giphy.com/explore/expert)) to search for gifs
 
 ## Preview
 
@@ -29,4 +27,4 @@ npm run test
 ```
 
 ## License
-MIT
+David Bárcenas. Released under the [MIT License]
