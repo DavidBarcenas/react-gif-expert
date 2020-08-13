@@ -12,6 +12,12 @@ input {
   color: #fff;
   font-size: 1.3em;
   width: 100%;
+  text-align: center;
+}
+
+.main__title {
+  display: block;
+  text-align: center;
 }
 
 .Gifs__list {

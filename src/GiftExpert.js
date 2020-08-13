@@ -11,7 +11,7 @@ const GiftExpert = ({ dafultCategory = [] }) => {
 
   return (
     <div>
-      <h2>GiftExpert</h2>
+      <h2 className="main__title">GiftExpert</h2>
 
       <AddCategory setCategories={setCategories} />
 
